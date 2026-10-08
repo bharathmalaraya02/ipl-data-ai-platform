@@ -1,0 +1,12 @@
+-r base.txt
+
+# Testing
+pytest
+pytest-cov
+
+# Code quality
+ruff
+
+# Notebooks
+jupyterlab
+ipykernel

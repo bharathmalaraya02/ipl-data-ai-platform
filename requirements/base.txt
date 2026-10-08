@@ -1,0 +1,14 @@
+# Core data processing
+pandas
+numpy
+pyarrow
+polars
+
+# Analytics
+duckdb
+
+# Configuration
+python-dotenv
+
+# HTTP / ingestion
+requests
