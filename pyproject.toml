@@ -7,6 +7,16 @@ name = "ipl-data-ai-platform"
 version = "0.1.0"
 description = "Cloud-native Data Engineering, Data Science and AI platform using IPL data"
 requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pandas==2.3.3",
+    "numpy",
+    "pyarrow",
+    "polars",
+    "pyspark==4.2.0",
+    "duckdb",
+    "python-dotenv",
+    "requests",
+]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

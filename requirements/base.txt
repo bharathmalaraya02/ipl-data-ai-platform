@@ -1,8 +1,9 @@
 # Core data processing
-pandas
+pandas==2.3.3
 numpy
 pyarrow
 polars
+pyspark==4.2.0
 
 # Analytics
 duckdb
